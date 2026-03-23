@@ -44,8 +44,8 @@ class ModelTrainer:
                 "Gradient Boosting":GradientBoostingRegressor(),
                 "Linear Regression":LinearRegression(),
                 "K-Neighbour Regressor":KNeighborsRegressor(),
-                "XGBRegressor":XGBRegressor(),
-                "CatBoosting Regressor":CatBoostRegressor(verbose=False),
+                #"XGBRegressor":XGBRegressor(),
+                #"CatBoosting Regressor":CatBoostRegressor(verbose=False),
                 "AdaBoost Regressor":AdaBoostRegressor()
             }
 
@@ -75,15 +75,15 @@ class ModelTrainer:
                     # 'weights':['uniform','distance'],
                     # 'algorithm':['ball_tree','kd_tree','brute']
                 },
-                "XGBRegressor":{
-                    'learning_rate':[.1,.01,.05,.001],
-                    'n_estimators': [8,16,32,64,128,256]
-                },
-                "CatBoosting Regressor":{
-                    'depth': [6,8,10],
-                    # 'learning_rate': [0.01, 0.05, 0.1],
-                    'iterations': [30, 50, 100]
-                },
+                #"XGBRegressor":{
+                 #   'learning_rate':[.1,.01,.05,.001],
+                  #  'n_estimators': [8,16,32,64,128,256]
+                #},
+         #       "CatBoosting Regressor":{
+           #         'depth': [6,8,10],
+           #         # 'learning_rate': [0.01, 0.05, 0.1],
+            #        'iterations': [30, 50, 100]
+            #    },
                 "AdaBoost Regressor":{
                     'learning_rate':[.1,.01,0.5,.001],
                     # 'loss':['linear','square','exponential'],
