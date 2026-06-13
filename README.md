@@ -330,4 +330,3 @@ LinkedIn: https://www.linkedin.com/in/gopal-bhargav-7a104a249
 ---
 
 ## ⭐ If you found this project useful, consider giving it a star.
-<img width="1358" height="675" alt="Screenshot 2026-06-13 211744" src="https://github.com/user-attachments/assets/805541ee-33a6-4ebf-9f06-b605f3bb969f" />
